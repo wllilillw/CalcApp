@@ -59,8 +59,8 @@ class MainActivity : AppCompatActivity(), View.OnClickListener {
     }
     private fun showAlertDialog(){
         val alertDialogBuilder = AlertDialog.Builder(this)
-        alertDialogBuilder.setTitle("タイトル")
-        alertDialogBuilder.setMessage("メッセージ")
+        alertDialogBuilder.setTitle("エラー")
+        alertDialogBuilder.setMessage("数字を設定してください")
 
         // AlertDialogを作成して表示する
         val alertDialog = alertDialogBuilder.create()
